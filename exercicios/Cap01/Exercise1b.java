@@ -13,13 +13,25 @@ public class Exercise1b {
         }
         
         System.out.println("--------------");
-
+        
         int y = 5;
         while ( y > 1 ) {
-            x = x - 1;
-            if
+            y = y - 1;
+            if ( y < 3 ) {
+                System.out.println("small y");
+            }
         }
+        
+        System.out.println("--------------");
 
+        int z = 5;
+        while (z > 1) {
+            z = z - 1;
+            
+            if (z < 3) {
+                System.out.println ("Small Z");
+            }
+        }
 
     }
 }
