@@ -1,4 +1,4 @@
-package exercicios.Cap2.Exercicios;
+package exercicios.Cap2;
 
 class TapeDeck {
     boolean canRecord = false;

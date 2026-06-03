@@ -1,4 +1,4 @@
-package exercicios.Cap2.Exercicios;
+package exercicios.Cap2;
 
 public class TestDriveEcho {
     public static void main (String[] args) {
