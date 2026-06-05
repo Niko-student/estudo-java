@@ -6,9 +6,9 @@ class Hobbits {
     public static void main(String[] args) {
 
         Hobbits [] h = new Hobbits[3];
-        int z = 0;
+        int z = -1;
 
-        while (z < 3) {
+        while (z < 2) {
             h[z] = new Hobbits();
             
             h[z].name = "bilbo";
