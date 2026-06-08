@@ -82,7 +82,6 @@ public class biblioteca {
                     int quantCompra = teclado.nextInt();
                     teclado.nextLine();
 
-                    boolean doado = false;
                     boolean encontrado = false;
 
                     for (int i = 0; i < biblioteca.length; i++) {
@@ -91,7 +90,6 @@ public class biblioteca {
                             if (quantCompra <= biblioteca[i].quantidade) {
                                 biblioteca[i].quantidade -= quantCompra;
                                 soma -= quantCompra;
-                                doado = true;
                                 System.out.println("Livro doado!");
                                 System.out.println("Quantidade restante: " + biblioteca[i].quantidade);
                             } else {
